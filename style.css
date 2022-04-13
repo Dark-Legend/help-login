@@ -93,7 +93,6 @@ section .left-section form label{
 }
 
 .account{
-    border: 2px solid red;
     width: 40%;
     display: flex;
     justify-content: space-evenly;
