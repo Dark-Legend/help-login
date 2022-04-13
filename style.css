@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    --heading-: rgb(30, 236, 236);
+    --navbar-: rgb(42, 40, 40);
+    --btn-color: rgb(71, 71, 219);
+}
+
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .left > img{
+    width: 150px;
+}
+
+header > .right > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+header > .right > ul > li > a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--navbar-);
+}
+
+section{
+    padding: 10px;
+}
+
+section .left-section h1{
+    width: 40%;
+    text-align: center;
+    margin-bottom: -20px;
+    color: var(--heading-);
+}
+
+section .left-section p{
+    text-align: center;
+    width: 40%;
+    margin-top: 30px;
+    color: var(--heading-);
+}
+
+section .left-section form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+section .left-section form input{
+    margin-bottom: 10px;
+    width: 40vw;
+    height: 30px;
+}
+
+section .left-section form label{
+    font-weight: 700;
+}
+
+.btn-side{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-side a{
+    height: 40px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-color);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.account{
+    border: 2px solid red;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.account .have-acc{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.account .sign-in{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
